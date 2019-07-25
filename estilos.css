@@ -16,12 +16,19 @@ body {
 
 .contenedor {
   width: 90%;
-  max-width: 1300px;
+  max-width: 1500px;
   margin: auto;
 }
 
+#wordpress img {
+margin-left: 300px;
+border: 3px solid #6C3483;
+padding: 10px;
+border-radius: 50%; 
+}
+
 header {
-  height: 100vh;
+  height: 125vh;
   background:linear-gradient(rgba(108,52,131,.9),rgba(187,143,206,.9)),url('imagenes/expo.jpg') left no-repeat;
   background-size: cover;
   margin-top: -145px;
@@ -45,7 +52,7 @@ header {
 #contenedor-menu {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
+  padding-top: 35px;
 }
 
 header .logo {
@@ -58,7 +65,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   margin: 0;
-    margin-top: 19px;
+  margin-top: 19px;
 }
 
 nav ul li {
@@ -80,9 +87,13 @@ nav ul li a {
 }
 
 .contenedor-titulo h1 {
-  font-size: 60px;
+  font-size: 40px;
   color: #fff;
   margin-bottom: 0;
+}
+
+.contenedor-titulo img {
+  width: 150px;
 }
 
 .contenedor-titulo h2 {
@@ -100,6 +111,7 @@ margin-bottom: 40px;
   color: #fff;
   padding: 14px 24px;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .contenedor-titulo .titulo {
@@ -123,6 +135,12 @@ margin-bottom: 40px;
 
 #about .about-text {
   width: 42%;
+  text-align: center;
+}
+
+#about a{
+  text-align: center;
+  margin-left: 33.33%;
 }
 
 #about a {
@@ -135,6 +153,7 @@ margin-bottom: 40px;
   width: 179px;
   text-align: center;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 #servicios h3 {
@@ -170,6 +189,14 @@ margin-bottom: 40px;
 .contenedor-servicios h4 {
   font-size: 30px;
   margin: 0;
+}
+
+.mision-img{
+  margin-left: 25%;
+  padding: 20px;
+  border: 3px solid #6C3483;
+  border-radius: 50%;
+  
 }
 
 .contenedor-servicios p {
@@ -280,6 +307,7 @@ margin-bottom: 40px;
   width: 41%;
   margin: auto;
 }
+
 
 #wordpress .wordpress-texto ul li {
   line-height: 35px;
@@ -536,6 +564,12 @@ footer p {
 
 @media screen and (max-width: 800px) {
 
+  header {
+    margin-top: -185px;
+    height: 125vh;
+  }
+
+
 .titulo h1 {
   font-size: 32px;
 }
@@ -556,6 +590,7 @@ footer p {
 #about .about-text {
   width: 100%;
 }
+
 
 .contenedor-servicios {
   flex-direction: column;
@@ -588,6 +623,7 @@ footer p {
 
 #wordpress h3 {
   font-size: 30px;
+  
 }
 
 #wordpress .contenedor-wordpress {
@@ -595,11 +631,13 @@ footer p {
 }
 
 #wordpress img {
-  width: 100%;
+  margin-left: 0px;
+
 }
 
 #wordpress .wordpress-texto {
   width: 100%;
+  text-align: justify;
 }
 
 #hosting p {
@@ -655,7 +693,7 @@ header nav {
   position: absolute;
   top: 83px;
   left: 0;
-  height: 268px;
+  height: 185px;
   background: #6C3483;
   width: 100%;
   display: none;
@@ -677,8 +715,8 @@ header nav ul li {
 
 @media screen and (min-width: 500px) and (max-width:800px) {
   header {
-    margin-top: -185px;
-    height: 61vh;
+    margin-top: -160px;
+    height: 125vh;
   }
 
   .contenedor-servicios .servicio {
