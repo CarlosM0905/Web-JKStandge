@@ -97,7 +97,7 @@ nav ul li a {
 }
 
 .contenedor-titulo h2 {
-font-size: 25px;
+font-size: 20px;
 color: #fff;
 text-align: center;
 margin-bottom: 40px;
@@ -116,6 +116,7 @@ margin-bottom: 40px;
 
 .contenedor-titulo .titulo {
   text-align: center;
+  text-transform: uppercase;
 }
 
 #about h3 {
@@ -562,6 +563,8 @@ footer p {
   top: 80%;
   right: 2%;
 }
+
+
 
 @media screen and (max-width: 800px) {
 
